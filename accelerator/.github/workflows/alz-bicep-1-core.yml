@@ -5,6 +5,7 @@ on:
     branches:
       - "main"
     paths:
+      - /**
       - "config/custom-parameters/managementGroups.parameters.all.json"
       - "config/custom-parameters/resourceGroupLoggingAndSentinel.parameters.all.json"
       - "config/custom-parameters/logging.parameters.all.json"
