@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - "**/bicepconfig.json"
-      - "**.bicep"
+      # - "**/bicepconfig.json"
+      # - "**.bicep"
   workflow_dispatch: {}
 
 permissions:
