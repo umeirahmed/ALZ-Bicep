@@ -5,12 +5,12 @@ on:
     branches:
       - "main"
     paths:
-      - "config/custom-parameters/alzDefaultPolicyAssignments.parameters.all.json"
+      # - "config/custom-parameters/alzDefaultPolicyAssignments.parameters.all.json"
   pull_request:
     branches:
       - "main"
     paths:
-      - "config/custom-parameters/alzDefaultPolicyAssignments.parameters.all.json"
+      # - "config/custom-parameters/alzDefaultPolicyAssignments.parameters.all.json"
   workflow_dispatch:
 
 permissions:
